@@ -22,6 +22,7 @@ h1 {
 
 .board {
     position: absolute;
+    justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -112,3 +113,7 @@ border-right: 5px solid black;
     border-left: 5px solid black;
 }
 
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 100px;
+}

@@ -17,6 +17,7 @@ function clickCell(cell, row, col) {
        cell.innerHTML = 'X';
        document.getElementById("whos-turn").innerHTML = "It is Player 2's Turn! (O)";
        move = 2;
+
     } 
     else if (move == 2) {
         cell.innerHTML = 'O';
