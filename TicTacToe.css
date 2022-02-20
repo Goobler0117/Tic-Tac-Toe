@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color: red;
+}
+
+
+h1 {
+    font-family: cursive;
+    font-size: 155px;
+    color: rgb(255, 115, 0);
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: black;
+
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+  
+}
+
+.col {
+    height: 100%;
+    width:29%;
+    float: left;
+    font-size: 70px;
+    font-weight: bolder;
+    color: cyan;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.row {
+    height: 32%;
+}
+
+.turn-alert {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: cyan;
+    font-size: 65px;
+    text-align: center;
+    margin:25%;
+    padding:0%;
+    text-decoration: underline;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#A-1 {
+border-bottom: 5px solid black;
+border-right: 5px solid black;
+
+}
+
+#A-2 {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;  
+    border-left: 5px solid black;    
+}
+
+#A-3 {
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#B-1 {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;  
+    border-top: 5px solid black;  
+}
+
+#B-2 {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;  
+    border-top: 5px solid black; 
+    border-left: 5px solid black;
+}
+
+#B-3 {
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;  
+    border-top: 5px solid black; 
+}
+
+#C-1 {
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+
+#C-2 {
+    border-top: 5px solid black;
+    border-right: 5px solid black;  
+    border-left: 5px solid black; 
+}
+
+#C-3 {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
